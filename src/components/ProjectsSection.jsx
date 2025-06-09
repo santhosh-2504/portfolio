@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "VitaminJob",
+    description: "A Job Portal Application which provides a platform for job seekers to find job opportunities.",
+    image: "/projects/vitaminjob.png",
+    tags: ["React", "Next.js", "TailwindCSS", "Express.js", "MongoDB"],
+    demoUrl: "https://vitaminjob.com",
+    githubUrl: "https://github.com/santhosh-2504/vitaminjob-nextjs",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Exameets",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A complete website for a start-up which has all necessary features for a ed-tech platform.",
+    image: "/projects/examees-home.png",
+    tags: ["Next.js", "TailwindCSS", "MongoDB"],
+    demoUrl: "https://exameets-user.vercel.app",
+    githubUrl: "https://github.com/exameets-1/exameets-user",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/santhosh-2504"
           >
             Check My Github <ArrowRight size={16} />
           </a>
