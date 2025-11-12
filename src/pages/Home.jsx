@@ -7,6 +7,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
+import AIModal from "../components/AIModal";
 
 export const Home = () => {
   return (
@@ -29,6 +30,7 @@ export const Home = () => {
 
       {/* Footer */}
       <Footer />
+      <AIModal />
     </div>
   );
 };
