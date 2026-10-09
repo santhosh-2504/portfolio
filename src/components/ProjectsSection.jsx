@@ -46,6 +46,24 @@ const projects = [
     demoUrl: "https://github.com/santhosh-2504/smart-wait#readme",
     githubUrl: "https://github.com/santhosh-2504/smart-wait",
   },
+  {
+    id: 6,
+    title: "Thiz.js",
+    description: "A modern CLI for scaffolding Express APIs with file-based routing and zero configuration.",
+    image: "/projects/thizjs.png",
+    tags: ["Express.js", "Node.js", "CLI", "NPM"],
+    demoUrl: "https://www.npmjs.com/package/create-thiz-app",
+    githubUrl: "https://github.com/santhosh-2504/create-thiz-app",
+  },
+  {
+    id: 7,
+    title: "KaaryaSiddhi",
+    description: "A full-stack mentorship platform for engineering students featuring level-based learning, task tracking, and in-browser coding practice.",
+    image: "/projects/kaarya.png",
+    tags: ["Next.js", "TailwindCSS", "MongoDB", "Cloudinary"],
+    demoUrl: "https://github.com/santhosh-2504/kaaryasiddhi#readme",
+    githubUrl: "https://github.com/santhosh-2504/kaaryasiddhi",
+  },
 ];
 
 
